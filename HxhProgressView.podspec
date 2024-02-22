@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
   渐变进度条
                        DESC
 
-  s.homepage         = 'https://github.com/${USER_NAME}/HxhProgressView'
+  s.homepage         = 'https://github.com/ColorPenBoy/HxhProgressView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'colorpen' => 'zq252125@163.com' }
   s.source           = { :git => 'https://github.com/ColorPenBoy/HxhProgressView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/colorpen_zxx'
 
   s.ios.deployment_target = '10.0'
 
