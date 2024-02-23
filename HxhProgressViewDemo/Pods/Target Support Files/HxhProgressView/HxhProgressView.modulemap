@@ -1,0 +1,6 @@
+framework module HxhProgressView {
+  umbrella header "HxhProgressView-umbrella.h"
+
+  export *
+  module * { export * }
+}

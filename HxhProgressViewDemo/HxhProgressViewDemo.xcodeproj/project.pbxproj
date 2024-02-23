@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89F348D3E8932556DFB0005B /* Pods_HxhProgressViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211A7E505E40595F15DCE5B8 /* Pods_HxhProgressViewDemo.framework */; };
 		F01A718B2B88294C000EA406 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F01A718A2B88294C000EA406 /* AppDelegate.m */; };
 		F01A718E2B88294C000EA406 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F01A718D2B88294C000EA406 /* SceneDelegate.m */; };
 		F01A71912B88294C000EA406 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01A71902B88294C000EA406 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2051FF6E5A16F3EBD533C853 /* Pods-HxhProgressViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HxhProgressViewDemo.release.xcconfig"; path = "Target Support Files/Pods-HxhProgressViewDemo/Pods-HxhProgressViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		211A7E505E40595F15DCE5B8 /* Pods_HxhProgressViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HxhProgressViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01A71862B88294C000EA406 /* HxhProgressViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HxhProgressViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01A71892B88294C000EA406 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F01A718A2B88294C000EA406 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +32,7 @@
 		F01A71982B88294E000EA406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F01A719A2B88294E000EA406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F01A719B2B88294E000EA406 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1E4C9D19A4904BF6319341A /* Pods-HxhProgressViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HxhProgressViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-HxhProgressViewDemo/Pods-HxhProgressViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +40,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89F348D3E8932556DFB0005B /* Pods_HxhProgressViewDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10FE9A41D2B9055A9308C8BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				211A7E505E40595F15DCE5B8 /* Pods_HxhProgressViewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1A936C7E5B0245CFEBA5D13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1E4C9D19A4904BF6319341A /* Pods-HxhProgressViewDemo.debug.xcconfig */,
+				2051FF6E5A16F3EBD533C853 /* Pods-HxhProgressViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F01A717D2B88294C000EA406 = {
 			isa = PBXGroup;
 			children = (
 				F01A71882B88294C000EA406 /* HxhProgressViewDemo */,
 				F01A71872B88294C000EA406 /* Products */,
+				E1A936C7E5B0245CFEBA5D13 /* Pods */,
+				10FE9A41D2B9055A9308C8BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,9 +108,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F01A719F2B88294E000EA406 /* Build configuration list for PBXNativeTarget "HxhProgressViewDemo" */;
 			buildPhases = (
+				34D384E872B1891D96F79EB9 /* [CP] Check Pods Manifest.lock */,
 				F01A71822B88294C000EA406 /* Sources */,
 				F01A71832B88294C000EA406 /* Frameworks */,
 				F01A71842B88294C000EA406 /* Resources */,
+				9A640F7A08A5404754FC51EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +167,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34D384E872B1891D96F79EB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HxhProgressViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A640F7A08A5404754FC51EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HxhProgressViewDemo/Pods-HxhProgressViewDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HxhProgressViewDemo/Pods-HxhProgressViewDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HxhProgressViewDemo/Pods-HxhProgressViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F01A71822B88294C000EA406 /* Sources */ = {
@@ -293,6 +362,7 @@
 		};
 		F01A71A02B88294E000EA406 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E4C9D19A4904BF6319341A /* Pods-HxhProgressViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,6 +390,7 @@
 		};
 		F01A71A12B88294E000EA406 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2051FF6E5A16F3EBD533C853 /* Pods-HxhProgressViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

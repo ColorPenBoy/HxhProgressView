@@ -1,0 +1,16 @@
+PODS:
+  - HxhProgressView (1.0.4)
+
+DEPENDENCIES:
+  - HxhProgressView (from `../`)
+
+EXTERNAL SOURCES:
+  HxhProgressView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HxhProgressView: bb19c0ed80953a929c4b409056377636bb8e3bd9
+
+PODFILE CHECKSUM: ef1168a229fc14219a66598f48d4ec4dec8b3984
+
+COCOAPODS: 1.15.0

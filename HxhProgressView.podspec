@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HxhProgressView'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'HxhProgressView is Gradient Progress View'
   s.description      = <<-DESC
   渐变进度条,更新代码
