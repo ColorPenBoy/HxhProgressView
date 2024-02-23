@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'HxhProgressView'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'HxhProgressView is Gradient Progress View'
   s.description      = <<-DESC
-  渐变进度条
+  渐变进度条,更新代码
                        DESC
 
   s.homepage         = 'https://github.com/ColorPenBoy/HxhProgressView'
